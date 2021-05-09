@@ -1,0 +1,93 @@
+
+/*--
+    Author: W3layouts
+    Author URL: http://w3layouts.com
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* Style tab links */
+.tablinkOrder {
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   padding: 10px 10px 1px 10px;
+   font-size: 14px;
+   width: 110px;
+    margin-right: -5px;
+  }
+
+.tablinkOrder a:hover {
+   color: #1ca77e;
+  }
+
+  .tabcontentOrder {
+    color: white;
+    display: none;
+    padding: 10px 20px;
+    height: 100%;
+    background: #fff;
+  }
+.tab {
+  overflow: hidden;
+  margin-bottom: -2px;
+}
+ .tablinkOrder a{
+ color: #000;
+    display: block;
+    text-decoration: none;
+ }
+ .border-tab-order{
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+ }
+#dataTable th{
+	font-weight: 500 !important;
+	font-size: 14px;
+}
+#dataTable td{
+	font-size: 13px;
+
+}
+#dataTable_wrapper label{
+	color: #000;
+	
+}
+.dataTables_info{
+	color: #fff !important;
+}
+.table-bordered th{
+	font-weight: 500 !important;
+	font-size: 14px;
+}
+.table-bordered td{
+	font-size: 13px;
+}
+.page-item.active .page-link {
+	background: #1ca77e !important;
+	color: #fff !important;
+}
+
+.page-link {
+	color: #1ca77e !important;
+	border-color: #fff !important;
+}
+.page-link:hover{
+	background: #f1f1f1 !important;
+}
+#dataTable_length{
+	display: none;
+}
+.icon_Edit{
+	text-decoration: none;
+	text-align: center;
+    padding-top: 20px;
+    display: block;
+    font-size: 20px;
+}
+.icon_Edit_one_row{
+	text-decoration: none;
+	text-align: center;
+    display: block;
+   font-size: 14px;
+}

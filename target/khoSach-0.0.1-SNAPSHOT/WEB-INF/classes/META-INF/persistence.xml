@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="persistence-data">
+		<class>com.khosach.entity.UserEntity</class>
+		<class>com.khosach.entity.RoleEntity</class>
+		<class>com.khosach.entity.CategoryEntity</class>
+		<class>com.khosach.entity.GroupProductEntity</class>
+		<class>com.khosach.entity.CartEntity</class>
+		<class>com.khosach.entity.ProductEntity</class>
+		<class>com.khosach.entity.OrderDetailEntity</class>
+		<class>com.khosach.entity.OrderEntity</class>
+		<class>com.khosach.entity.ProductSaleEntity</class>
+	</persistence-unit>
+</persistence>

@@ -1,0 +1,255 @@
+   .tygh-top-panel .login_popup {
+        color: #000;
+        background: url(../../../../../../../../design/themes/nhanvan/media/images/icons/icon-account.png?1587092504) no-repeat 0px 10px;
+        padding: 6px 20px 0px 14px;
+        display: inline-block;
+    }
+
+    .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        z-index: 100;
+        transition: 0.3s ease-out;
+        transform: translate(-50%,-50%);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+        visibility: hidden;
+        opacity: 0;
+        margin-top: 50px;
+        z-index: 9999;
+        border-radius: 20px;
+    }
+    .popup.active {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 0;
+        display: block;
+    }
+    .popup .btnClose {
+        background: #e1e1e1;
+        border: 0;
+        position: absolute;
+        right: -15px;
+        top: -25px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+    .popup__content {
+        height: 628px;
+        width: 940px;
+        display: flex;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .popup__img.active {
+        display: block;
+    }
+    .popup__img .desc-login {
+        color: #fff;
+        font-size: 14px;
+        line-height: 26px;
+        padding: 15px 0px;
+    }
+    .popup__img .title-login {
+        color: #fff;
+        font-size: 36px;
+        font-family: Montserrat-SemiBold;
+    }
+    .tygh-top-panel a {
+        color: #000;
+        font-size: 14px;
+        text-decoration: none;
+        outline: none;
+        color: #ff5800;
+        cursor: pointer;
+        border-bottom: 0;
+        -webkit-transition: all 150ms;
+        -moz-transition: all 150ms;
+        -o-transition: all 150ms;
+        transition: all 150ms;
+    }
+
+    .popup__img {
+        display: none;
+        background: #ff7a00 url(../../../../../../../../design/themes/nhanvan/media/images/bg-left-login.png?1587092504) no-repeat 0px 0px;
+        min-height: 670px;
+        background-size: 100% 100%;
+        padding: 35px 25px 0px 25px;
+        width: 35%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .popup__body {
+        position: relative;
+        padding: 15px 0 30px 30px;
+        background: #fff;
+        width: 65%;
+        float: right;
+        box-sizing: border-box;
+        }.popup__header {
+            display: flex;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .popup__body__inner {max-height : 56vh}
+        .tab__content > .popup__body__inner {
+            display: none;
+        }
+        .tab__content > .active {
+            padding: 20px 55px 30px 15px;
+            display: block;
+        }
+        input[type="hidden" i] {
+            display: none;
+            -webkit-appearance: initial;
+            background-color: initial;
+            cursor: default;
+            padding: initial;
+            border: initial;
+        }
+        .popup .form {
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .popup__header .nav-link.active {
+            outline: none;
+            background-color: #ff7a00;
+            color: #fff;
+        }
+        .popup .form label {
+            line-height: 20px;
+            color: #000;
+            display: inline-block;
+            width: 139px;
+            text-align: left;
+        }
+        .popup .form input {
+            width: 364px;
+            background: transparent;
+            border: 1px solid #d7d7d7;
+            border-radius: 3px;
+            vertical-align: top;
+            height: 35px;
+            transition: all 0.3s ease;
+            padding: 4px 8px;
+        }
+        .popup .form input:focus {
+            padding-left: 15px;
+            outline: none;
+            border: 1px solid #000;
+        }
+        .popup__forgot {
+            display: block;
+            margin: 40px 0 20px;
+        }
+
+        .popup__header .button {
+            background-color: #ebebeb;
+            color: #9e9e9e;
+            border: 0;
+            padding: 10px 40px;
+            transition: all 0.3s ease;
+            margin-right: 20px;
+            cursor: pointer;
+            border-radius: .25rem .25rem 0 0;
+            position: relative;
+            z-index: 1;
+            bottom: -1px;
+        }
+        .btn-orrange:hover {
+            color: #000;
+        }
+        .btn-orrange {
+            background: #ff5a01;
+            color: #fff;
+            display: inline-block;
+            width: 100%;
+            border: 0px;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: Montserrat-SemiBold;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+        /* radio */
+        .popup__checkbox--inline {
+            margin-bottom: 15px;
+            width: 350px;
+            display: inline-block;
+        }
+        .radio, .checkbox, input[type="radio"], input[type="checkbox"] {
+            margin: -4px 6px 0 0;
+            padding: 0;
+            vertical-align: middle;
+        }
+        .popup__checkbox--inline [type="radio"] + label {
+            margin-right: 30px;
+            width: auto;
+        }
+        .popup__checkbox [type="checkbox"]:checked+label:before, .popup__checkbox [type="checkbox"]:not(:checked)+label:before, .popup__checkbox [type="radio"]:checked+label:before, .popup__checkbox [type="radio"]:not(:checked)+label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 4px;
+            width: 12px;
+            height: 12px;
+            border: 1px solid #000;
+            background: #fff;
+        }
+        .popup__checkbox [type="checkbox"]:checked+label:after, .popup__checkbox [type="checkbox"]:not(:checked)+label:after, .popup__checkbox [type="radio"]:checked+label:after, .popup__checkbox [type="radio"]:not(:checked)+label:after {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: #000;
+            position: absolute;
+            top: 7px;
+            left: 3px;
+            transition: all 0.2s ease;
+        }
+        .popup__checkbox [type="checkbox"]:checked, .popup__checkbox [type="checkbox"]:not(:checked), .popup__checkbox [type="radio"]:checked, .popup__checkbox [type="radio"]:not(:checked) {
+            position: absolute;
+            left: -9999px;
+        }
+        .popup__checkbox [type="radio"]:not(:checked)+label:before {
+            border: 1px solid #999;
+        }
+        .popup__checkbox [type="checkbox"]:not(:checked)+label:after, .popup__checkbox [type="radio"]:not(:checked)+label:after {
+            opacity: 0;
+            transform: scale(0);
+        }
+        .popup__checkbox [type="radio"]:checked+label {
+            color: #454542;
+        }
+        .popup__checkbox [type="checkbox"]:checked+label, .popup__checkbox [type="checkbox"]:not(:checked)+label, .popup__checkbox [type="radio"]:checked+label, .popup__checkbox [type="radio"]:not(:checked)+label {
+            position: relative;
+            padding-left: 25px;
+            cursor: pointer;
+            line-height: 20px;
+            display: inline-block;
+            font-size: 14px;
+            color: #454542;
+            margin-bottom: 0;
+        }
+        .popup__select {
+            display: inline-block;
+        }
+        .select-date {
+            background: #ebebeb;
+            padding: 5px;
+            height: 38px;
+            border-radius: 5PX;
+            width: 85px;
+            margin-right: 10px;
+            border: 1px solid #a9a9a9;
+        }
+        .popup__checkbox--italic {
+            margin: 15px 0 30px;
+        }
+        .popup__body__inner .button-left {
+            margin-left: 120px;
+        }
